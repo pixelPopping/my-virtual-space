@@ -1,5 +1,3 @@
-import { getImageUrl } from "../../utils";
-
 export const Hero = () => {
   return (
     <section>
@@ -13,7 +11,6 @@ export const Hero = () => {
         </p>
         <a href="mailto:sydney-cook@outlook.com">Contact Me</a>
       </div>
-      <img src={getImageUrl("Hero/DSCN0550.JPG")} alt="hero" />
     </section>
   );
 };
