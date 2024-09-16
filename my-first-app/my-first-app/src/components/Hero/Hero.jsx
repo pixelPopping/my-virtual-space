@@ -13,7 +13,7 @@ export const Hero = () => {
         </p>
         <a href="mailto:sydney-cook@outlook.com">Contact Me</a>
       </div>
-      <img src={getImageUrl("assets/Hero.jpg")} alt="hero" />
+      <img src={getImageUrl("assets/DSCN0550.JPG")} alt="hero" />
     </section>
   );
 };
