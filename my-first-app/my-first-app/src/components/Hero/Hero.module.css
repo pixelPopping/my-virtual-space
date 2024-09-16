@@ -1,3 +1,9 @@
-section {
+.section {
   background-color: #f0f0f0; /* A light gray background for contrast */
+}
+
+.img {
+  width: 100%; /* or set a specific width */
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
 }
