@@ -1,9 +1,9 @@
-.section {
-  background-color: #f0f0f0; /* A light gray background for contrast */
-}
+@import "../../vars.css";
 
-.img {
-  width: 100%; /* or set a specific width */
-  max-width: 100%;
-  height: auto; /* Maintain aspect ratio */
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
 }
