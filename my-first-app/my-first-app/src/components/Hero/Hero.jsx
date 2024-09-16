@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 export const Hero = () => {
   // Generate the correct image URL
   const imageUrl = getImageUrl(
-    "nav/24325541_2022_ani_cartoon_27-removebg-preview 1.png"
+    "hero/img/24325541_2022_ani_cartoon_27-removebg-preview 1.png"
   );
 
   console.log(imageUrl); // This should log the correct path to the image
