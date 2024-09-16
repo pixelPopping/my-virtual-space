@@ -2,6 +2,9 @@ import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
 
 export const Hero = () => {
+  const imageUrl = getImageUrl("assets/Hero/Hero.png");
+  console.log(imageUrl); // Log the URL to ensure it is correct
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -15,11 +18,7 @@ export const Hero = () => {
         <a href="mailto:sydney-cook@outlook.com" className={styles.contactBtn}>
           Contact Me
         </a>
-        <img
-          src={getImageUrl("assets/Hero/Hero.png")}
-          alt="hero"
-          className={styles.heroImage}
-        />
+        <img src={imageUrl} alt="hero" className={styles.heroImage} />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
       </div>
