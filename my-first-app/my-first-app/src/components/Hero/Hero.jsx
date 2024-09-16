@@ -1,7 +1,9 @@
+import styles from "./Hero.module.css";
+
 export const Hero = () => {
   return (
-    <section>
-      <div>
+    <section className={styles.container}>
+      <div className={styles.content}>
         <h1>Hi Welcome, I’m Yorian</h1>
         <p>
           I am a Frontend developer student, and this is my portfolio. In my
@@ -10,6 +12,8 @@ export const Hero = () => {
           world of IT. This is the showcase of my work.
         </p>
         <a href="mailto:sydney-cook@outlook.com">Contact Me</a>
+        <div className={styles.topBlur} />
+        <div className={styles.bottomBlur} />
       </div>
     </section>
   );
