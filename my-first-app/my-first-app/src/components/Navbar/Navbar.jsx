@@ -21,7 +21,10 @@ export const Navbar = () => {
           alt="Menu Icon"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
+        <ul
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="about">about</a>
           </li>
