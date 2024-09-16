@@ -9,6 +9,7 @@ export const Hero = () => {
           now im studying web development and im eager to learn the world of IT,
           this is the showcasse of my work
         </p>
+        <a href="mailto:sydney-cook@outlook.com">Contacts Me</a>
       </div>
     </section>
   );
