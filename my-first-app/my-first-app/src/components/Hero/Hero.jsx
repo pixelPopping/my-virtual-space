@@ -12,10 +12,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi Welcome, I’m Yorian</h1>
         <p className={styles.description}>
-          I am a Frontend developer student, and this is my portfolio. In my
-          previous career, I worked as a chef and showcased my creativity in
-          cooking. Now I’m studying web development, and I’m eager to learn the
-          world of IT. This is the showcase of my work.
+          I am a Frontend developer student, in my previous career i worked as a
+          chef and showcased my creativity in cooking. Now I study web
+          development, and I’m eager to learn the world of IT.
         </p>
         <a href="mailto:sydney-cook@outlook.com" className={styles.contactBtn}>
           Contact Me
